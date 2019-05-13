@@ -1,8 +1,9 @@
 package problem;
 
-/**problem12:数值的整数次方
+/**
+ * problem12:数值的整数次方
  * description:给定一个double类型的浮点数base和int类型的整数exponent。求base的exponent次方。
- * Created by kriswong on 2019/5/13.
+ * Created by wtwang on 2019/5/13.
  */
 public class Problem12 {
     public static void main(String[] args){

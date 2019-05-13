@@ -3,9 +3,10 @@ package problem;
 import java.util.ArrayList;
 import java.util.Stack;
 
-/**problem3:从尾到头打印链表
+/**
+ * problem3:从尾到头打印链表
  * description:输入一个链表，按链表值从尾到头的顺序返回一个ArrayList。
- * Created by kriswong on 2019/5/10.
+ * Created by wtwang on 2019/5/10.
  */
 public class Problem3 {
     /**
@@ -30,14 +31,15 @@ public class Problem3 {
         return list;
 
     }
-}
 
+    class ListNode {
+        int val;
+        ListNode next = null;
 
-class ListNode {
-    int val;
-    ListNode next = null;
-
-    ListNode(int val) {
-        this.val = val;
+        ListNode(int val) {
+            this.val = val;
+        }
     }
 }
+
+

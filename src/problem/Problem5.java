@@ -2,9 +2,10 @@ package problem;
 
 import java.util.Stack;
 
-/**problem5:用两个栈实现队列
+/**
+ * problem5:用两个栈实现队列
  * description:用两个栈来实现一个队列，完成队列的Push和Pop操作。 队列中的元素为int类型。
- * Created by kriswong on 2019/5/10.
+ * Created by wtwang on 2019/5/10.
  */
 public class Problem5 {
     Stack<Integer> stack1 = new Stack<Integer>();
