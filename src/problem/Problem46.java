@@ -17,6 +17,9 @@ public class Problem46 {
         System.out.println(LastRemaining_Solution(5,3));
     }
     public static int LastRemaining_Solution(int n, int m) {
+        /**
+         * commit typo,this is problem46 instead of problem45
+         */
         if(n == 0 || m == 0){
             return -1;
         }
