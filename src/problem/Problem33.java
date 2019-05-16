@@ -21,9 +21,12 @@ public class Problem33 {
         }
         int[] arr = new int[index];
         arr[0] = 1;
+        //basei是乘以i之后大于当前最大数的下标位置
         int base2=0,base3=0,base5=0;
+        //ugi为乘以i之后的数
         int ug2=0,ug3=0,ug5=0;
         for(int i=1;i<index;++i){
+            //找到乘以i之后大于当前最大数的最小值
             while(base2 < i){
                 if(arr[base2]*2 > arr[i-1]){
                     ug2 = arr[base2]*2;
@@ -45,6 +48,7 @@ public class Problem33 {
                 }
                 base5++;
             }
+            //更新三个数最小的那个的下标
             if(ug2 <= ug3 && ug2 <= ug5){
                 arr[i] = ug2;
                 base2++;
