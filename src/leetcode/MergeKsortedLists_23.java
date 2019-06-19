@@ -6,7 +6,7 @@ import java.util.PriorityQueue;
 /**
  * Created by wtwang on 2019/5/21.
  */
-public class MergeKsortedLists {
+public class MergeKsortedLists_23 {
     public static void main(String[] args){
         ListNode[] lists = new ListNode[1];
         ListNode node11 = new ListNode(1);
