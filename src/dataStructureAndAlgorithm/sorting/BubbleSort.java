@@ -23,8 +23,6 @@ public class BubbleSort {
                 }
             }
         }
-        for(int i=0;i<l;++i){
-            System.out.print(arr[i] + " ");
-        }
+        new PrintArray().printArray(arr);
     }
 }
