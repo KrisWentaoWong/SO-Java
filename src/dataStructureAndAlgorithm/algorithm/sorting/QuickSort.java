@@ -1,4 +1,4 @@
-package dataStructureAndAlgorithm.sorting;
+package dataStructureAndAlgorithm.algorithm.sorting;
 
 /**
  * 快速排序

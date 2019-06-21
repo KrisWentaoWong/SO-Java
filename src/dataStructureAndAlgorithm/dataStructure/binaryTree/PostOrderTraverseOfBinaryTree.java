@@ -1,4 +1,4 @@
-package dataStructureAndAlgorithm.binaryTree;
+package dataStructureAndAlgorithm.dataStructure.binaryTree;
 
 import java.util.ArrayList;
 import java.util.List;
